@@ -12,6 +12,7 @@ body {
     font-size: 2.5rem;
     color: #333;
     background: #000 url("../imagens/fundo-baixo.jpg") no-repeat center bottom;
+    text-align: center;
 }
 
 h1{
@@ -74,30 +75,19 @@ nav ul li a:hover {
 }
 
 section {
-    width: 700px;
-    float: right;
+    width: 100%;
+}
+
+article#texto, article#artigo-interno {
+    width: 100%;
 }
 
 aside#imagens {
-   width: 300px;
-   float: right;
+   width: 100%;
 }
 
 .imagem {
-    width: 300px;
-}
-
-footer {
-    clear: both;
-    width: 100%;
-    line-height: 50px;
-    text-align: center;
-    border-top: 1px solid #333;
-}
-
-article#texto {
-    width: 380px;
-    float: left;
+    width: 70%;
 }
 
 header img {
@@ -105,17 +95,26 @@ header img {
     width: 80%;
 }
 
-article#artigo-interno {
-    width: 380px;
-    float: left;
-}
-
 .mapa {
-    width: 700px;
-    height: 450px;
+    width: 800px;
+    height: 1000px;
 }
 
 .video {
-    width: 560px;
-    height: 315px;
+    width: 784px;
+    height: 441px;
+}
+
+footer {
+    width: 100%;
+    line-height: 50px;
+    text-align: center;
+    border-top: 1px solid #333;
+}
+
+footer a {
+    color: #000;
+    text-decoration: none;
+    font-size: 1.7rem;
+    font-style: italic;
 }
